@@ -1,0 +1,13 @@
+<h1> Successfully auth </h1>
+
+<% if current_user %>
+
+<%= button_to 'Logout', log_out_path , method: :delete %>
+
+
+<% else %>
+
+
+
+
+<% end %>
